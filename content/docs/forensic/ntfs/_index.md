@@ -302,8 +302,7 @@ of slack space to potentially hold residual data.
 
 Velociraptor can report on the $I30 streams and carve out headers from
 slack using the `parse_ntfs_i30()` function as discussed in [this
-article](https://www.fireeye.com/blog/threat-research/2012/10/incident-response-ntfs-indx-buffers-part-4-br-internal.html). An
-example query:
+article](https://web.archive.org/web/20211028075634/https://www.fireeye.com/blog/threat-research/2012/10/incident-response-ntfs-indx-buffers-part-4-br-internal.html). An example query:
 
 ```sql
 SELECT * FROM foreach(
